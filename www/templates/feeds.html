@@ -1,0 +1,25 @@
+<ion-view view-title="Newsfeed" >
+	<div class="bar bar-subheader item-input-inset bar-light">
+		<label class="item-input-wrapper">
+			<i class="icon ion-search placeholder-icon"></i>
+			<input type="search" ng-model="query" placeholder="Search">
+		</label>
+	</div>
+	<ion-content class="has-subheader">
+
+		<ion-refresher on-refresh="doRefresh()">
+    	</ion-refresher>
+
+		<ion-list ng-repeat="data in facebookData | filter:query">
+			<ion-item ng-href="#/app/feeds/{{data.id}}" class=" item-thumbnail-left">
+				<img ng-src="{{data.picture}} " alt="{{data.name}}"/>
+				<h2>{{data.name}} </h2>
+				<p>{{data.caption}} </p>
+				<p>{{data.created_time | date}} </p>
+				<p>{{data.message || data.story || data.message}}</p>
+				 <!-- <i class="icon  ion-ios-arrow-right"></i> -->
+			</ion-item>
+		</ion-list>
+	</ion-content>
+
+</ion-view>

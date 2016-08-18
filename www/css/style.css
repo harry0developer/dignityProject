@@ -1,0 +1,60 @@
+/* Empty. Add your own CSS if you like */
+
+.dreamgirl{
+	color: #8c0669;
+	text-align: center;
+	padding: 70px 0 70px 0;
+}
+a{
+	text-decoration: none;
+}
+.ProfileDetails .item-thumbnail, .item .name, .ProfileDetails, .col-90{
+	background-color: #8c0669;
+
+}
+.ProfileDetails img{
+	border-radius: 100%;
+	border:solid #e5e5e5 2px;
+
+}
+.item .profile {
+    border-style: none !important;
+}
+.item .name{
+	padding-left:33%;
+	border-style: none;
+}
+.item .name h2{
+	color: #e5e5e5 !important;
+
+}
+
+.bar.bar-stable{
+	background-color: #8c0669 !important;
+	border-color: #e5e5e5;
+}
+.bar.bar-stable .title{
+	color: #e5e5e5;
+}
+.button.button-stable{
+	color: #e5e5e5;
+}
+.bar-stable .button.button-clear {
+    color: #fff;
+}
+
+.button.button-stable {
+    border-color: transparent;
+    background-color: #6d0652;
+    color: #fff;
+}
+
+.button.button-stable:hover, .button.button-stable:active {
+    border-color: transparent;
+    background-color: #6d0652;
+    color: #fff;
+}
+.item-divider {
+    background-color: #cca6c2;
+
+}

@@ -1,0 +1,57 @@
+<ion-view view-title="Calendar">
+	<!-- <ion-nav-buttons side="secondary">
+      <button class="button button-clear icon ion-ios-plus-outline button-stable" ng-click="openDatePickerOne()">
+        
+      </button> -->
+    </ion-nav-buttons>
+	<ion-content>
+	
+<!-- 	<div class="card">
+		<ionic-datepicker input-obj="datepickerObject">
+		  <button class="button button-block button-positive"> {{datepickerObject.inputDate | date:'dd - MMMM - yyyy'}}</button>
+		</ionic-datepicker>
+	</div> -->
+
+		<div class="list card" id="datepicker"></div>
+		<div class="spinners list card padding">
+			<div class="item item-divider">
+				Mood for <p class="pDate"></p>
+			</div>
+		 	<div class="row scrollTD">
+		 		<div class="col">Acne</div>
+		 		<div class="col" ><input class="spinner" id="acneSpinner" name="value"></div>
+		 	</div>
+		 	<div class="row scrollTD">
+		 		<div class="col">Appetite</div>
+		 		<div class="col" ><input class="spinner" id="apetiteSpinner" name="value"></div>
+		 	</div>
+
+			<div class="row scrollTD">
+		 		<div class="col">Backache</div>
+		 		<div class="col" ><input class="spinner" id="backacheSpinner" name="value"></div>
+		 	</div>
+
+			<div class="row scrollTD">
+		 		<div class="col">Constipation</div>
+		 		<div class="col" ><input class="spinner" id="constipationSpinner" name="value"></div>
+		 	</div>
+
+		 	<dib class="button-bar">
+				<button class="button button-stable  icon-left ion-checkmark-round" ng-click="submit()">Update</button>
+				<button class="button button-assertive button-outline  icon-right ion-close-round" ng-click="cancel()">Cancel</button>
+		 	</dib>
+		</div>
+		<div class="card" ng-repeat="obj in moods">
+		    <div class="item item-divider" >
+		        {{obj[$index].date }} SSSS
+		    </div>                    
+		    <div class="item item-text-wrap" ng-repeat="mood in obj">
+		    	<p>
+		        {{ mood.name }} : {{mood.value}} XXX
+		        <p/>
+		    </div>
+		</div>
+
+	</ion-content>
+</ion-view>
+

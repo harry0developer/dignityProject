@@ -1,0 +1,12 @@
+{
+  "name": "dignityProject",
+  "app_id": "77566639",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
