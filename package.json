@@ -1,7 +1,7 @@
 {
-  "name": "dignityproject",
+  "name": "pay",
   "version": "1.1.1",
-  "description": "dignityProject: An Ionic project",
+  "description": "pay: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",

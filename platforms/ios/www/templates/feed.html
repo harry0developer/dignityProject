@@ -1,0 +1,25 @@
+<ion-view view-title="Feed">
+  <ion-content class="padding" >
+	<div class="list card" ng-repeat="item in facebookData | filter:{id: whichFeed}" >
+		<div class="item item-avatar item-text-wrap ">
+			<img ng-src="{{item.picture}}">
+			<h2>{{item.name}}</h2>
+			<p>{{item.caption}}</p>
+			<p>{{item.created_time | date}}</p>
+
+		</div>
+
+		<div class="item item-body tem-text-wrap" >
+			<img class="full-image" ng-src="{{item.full_picture}}">
+			<p>{{ item.description || item.message }}</p>
+			<p ng-repeat="likes in item.shares">
+				<button class="button button-clear button-positive">
+				  <i class="icon ion-thumbsup"></i> {{likes}} Like{{likes > 1 ? 's':''}}
+				</button>
+			</p>
+		</div>
+
+	</div>
+
+  </ion-content>
+</ion-view>

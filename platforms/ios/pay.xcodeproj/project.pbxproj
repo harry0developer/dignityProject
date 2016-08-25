@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */; };
+		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
+		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
+		40DC164A8A094819BDB65780 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E7E9A53B7043BE9595C0BB /* Accelerate.framework */; };
+		62616F707FE64C588791A0D1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3938A9F5086C48E8860AAF32 /* AudioToolbox.framework */; };
+		0879438251CD461F9354FBD7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34073F03F2694E6CB268963C /* AVFoundation.framework */; };
+		3776B8B2C62E454288E83C70 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8203A3EB86C94AFA9A8F402D /* CoreMedia.framework */; };
+		05A0094BECF74E00A252D7AD /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9A5CC948484A89BE4C60AD /* CoreVideo.framework */; };
+		A56E7B56EE90466EA7B97685 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F8FB857D244EF6AF291E09 /* Foundation.framework */; };
+		86991F454C8F43DFA4D40285 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3E81F7C74E41B4BDB1923B /* OpenGLES.framework */; };
+		520BAB32918C4542931F6AE9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321B52ECC2E2477D929E309A /* QuartzCore.framework */; };
+		5DFE0EDA2A1D42418AF88B77 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF5F0939CFC49B39A3BB3C4 /* Security.framework */; };
+		F73B6EB2CD8746FC93F3C73E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0E8D0FBD3B429D89135550 /* UIKit.framework */; };
+		E38F52D7D143486F9ADB7E84 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5E0799CAB54B28A4682E02 /* libc++.dylib */; };
+		52F2D756A05A43399930960D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AF788C86F74362BCC205F1 /* CFNetwork.framework */; };
+		F5B754F6A59741329A325A24 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0784A46605453580A37D3C /* CoreLocation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		171DA35C9E054314B71975C6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EBE52757C4447899226E8F /* MessageUI.framework */; };
+		7C08EC8C9E65473F8581E517 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28CF11AC0A84C1FB60CFF18 /* SafariServices.framework */; };
+		897E9C72FFE04962BE56CABD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90570D6381643F49530B17C /* SystemConfiguration.framework */; };
+		E335D2BFEC094CA0A3DF0396 /* PayPalMobileCordovaPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A22D948F924C00A1165661 /* PayPalMobileCordovaPlugin.m */; };
+		CAAF060FAC214E98A56F1CB1 /* libPayPalMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2F4701F9AC428D8DC44816 /* libPayPalMobile.a */; };
+		59A2C8339F5540E38EB2D80B /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F87988ED52EB4348AF3A77CA /* CDVLogger.m */; };
+		02DAB60F9A2648DABE039C09 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3129D561CF97407C8256E90F /* CDVDevice.m */; };
+		BC8A3AE370104A43B4557057 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B265129481DC48208095FDA3 /* CDVInAppBrowser.m */; };
+		46CD580254FB43739556B3DF /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F06A9E20114E5D9FA58AC5 /* CDVSplashScreen.m */; };
+		87FA161CF1BF4EF6A213E31C /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = E12A95C664A84DFABEFDFD3F /* CDVViewController+SplashScreen.m */; };
+		5789607D9D3A42918DE15790 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F714444CCEF444A82549091 /* CDVStatusBar.m */; };
+		40C84C83D52044BE8EE7DB47 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3197CF2FFF774A92A93B8F98 /* IonicKeyboard.m */; };
+		CB0525BC1299486D99CB0925 /* CardIOCordovaPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B5C74BB2DE468187C29CF8 /* CardIOCordovaPlugin.m */; };
+		108407B48C60477885D41286 /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D7C55C8D354CD898F4E153 /* libCardIO.a */; };
+		8A537A32D39B4860AF5CE07C /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA598D19E282451299F3838C /* libopencv_core.a */; };
+		9CCF0C306C194673A6E56E10 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BE9EA2AAA74CC296CB07FC /* libopencv_imgproc.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "pay/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = cordova/build-debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = cordova/build-release.xcconfig; sourceTree = SOURCE_ROOT; };
+		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
+		32CA4F630368D1EE00C91783 /* pay-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pay-Prefix.pch"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* pay-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "pay-Info.plist"; path = "pay/pay-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
+		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "pay/config.xml"; sourceTree = "<group>"; };
+		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		E4E7E9A53B7043BE9595C0BB /* Accelerate.framework */ = {isa = PBXFileReference; name = "Accelerate.framework"; path = "System/Library/Frameworks/Accelerate.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		3938A9F5086C48E8860AAF32 /* AudioToolbox.framework */ = {isa = PBXFileReference; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		34073F03F2694E6CB268963C /* AVFoundation.framework */ = {isa = PBXFileReference; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		8203A3EB86C94AFA9A8F402D /* CoreMedia.framework */ = {isa = PBXFileReference; name = "CoreMedia.framework"; path = "System/Library/Frameworks/CoreMedia.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		5B9A5CC948484A89BE4C60AD /* CoreVideo.framework */ = {isa = PBXFileReference; name = "CoreVideo.framework"; path = "System/Library/Frameworks/CoreVideo.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		C0F8FB857D244EF6AF291E09 /* Foundation.framework */ = {isa = PBXFileReference; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		EE3E81F7C74E41B4BDB1923B /* OpenGLES.framework */ = {isa = PBXFileReference; name = "OpenGLES.framework"; path = "System/Library/Frameworks/OpenGLES.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		321B52ECC2E2477D929E309A /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		CCF5F0939CFC49B39A3BB3C4 /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		6A0E8D0FBD3B429D89135550 /* UIKit.framework */ = {isa = PBXFileReference; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		DD5E0799CAB54B28A4682E02 /* libc++.dylib */ = {isa = PBXFileReference; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = compiled.mach-o.dylib; explicitFileType = undefined; includeInIndex = 0; };
+		F5AF788C86F74362BCC205F1 /* CFNetwork.framework */ = {isa = PBXFileReference; name = "CFNetwork.framework"; path = "System/Library/Frameworks/CFNetwork.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		6D0784A46605453580A37D3C /* CoreLocation.framework */ = {isa = PBXFileReference; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		23EBE52757C4447899226E8F /* MessageUI.framework */ = {isa = PBXFileReference; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		B28CF11AC0A84C1FB60CFF18 /* SafariServices.framework */ = {isa = PBXFileReference; name = "SafariServices.framework"; path = "System/Library/Frameworks/SafariServices.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		B90570D6381643F49530B17C /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		978588FB25D24498BEE3EA0F /* libPayPalMobile.a */ = {isa = PBXFileReference; name = "libPayPalMobile.a"; path = "libPayPalMobile.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		70A22D948F924C00A1165661 /* PayPalMobileCordovaPlugin.m */ = {isa = PBXFileReference; name = "PayPalMobileCordovaPlugin.m"; path = "com.paypal.cordova.mobilesdk/PayPalMobileCordovaPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		9B2F4701F9AC428D8DC44816 /* libPayPalMobile.a */ = {isa = PBXFileReference; name = "libPayPalMobile.a"; path = "pay/Plugins/com.paypal.cordova.mobilesdk/libPayPalMobile.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		52C54B0BA0E64215A5A57E19 /* PayPalMobileCordovaPlugin.h */ = {isa = PBXFileReference; name = "PayPalMobileCordovaPlugin.h"; path = "com.paypal.cordova.mobilesdk/PayPalMobileCordovaPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		06B5CFBCA27440AB8C728328 /* PayPalConfiguration.h */ = {isa = PBXFileReference; name = "PayPalConfiguration.h"; path = "com.paypal.cordova.mobilesdk/PayPalConfiguration.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		D2DC0E225FEB463483F37551 /* PayPalFuturePaymentViewController.h */ = {isa = PBXFileReference; name = "PayPalFuturePaymentViewController.h"; path = "com.paypal.cordova.mobilesdk/PayPalFuturePaymentViewController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		03A6A318E07644B6B075B365 /* PayPalMobile.h */ = {isa = PBXFileReference; name = "PayPalMobile.h"; path = "com.paypal.cordova.mobilesdk/PayPalMobile.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		94C503717FF14636AD1FD331 /* PayPalOAuthScopes.h */ = {isa = PBXFileReference; name = "PayPalOAuthScopes.h"; path = "com.paypal.cordova.mobilesdk/PayPalOAuthScopes.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		A34F315294024E85AAB26D5A /* PayPalPayment.h */ = {isa = PBXFileReference; name = "PayPalPayment.h"; path = "com.paypal.cordova.mobilesdk/PayPalPayment.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		62EAA21D8D3A44CEAC655CBB /* PayPalPaymentViewController.h */ = {isa = PBXFileReference; name = "PayPalPaymentViewController.h"; path = "com.paypal.cordova.mobilesdk/PayPalPaymentViewController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		FB6FFE7C4FE744329F38D299 /* PayPalProfileSharingViewController.h */ = {isa = PBXFileReference; name = "PayPalProfileSharingViewController.h"; path = "com.paypal.cordova.mobilesdk/PayPalProfileSharingViewController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F87988ED52EB4348AF3A77CA /* CDVLogger.m */ = {isa = PBXFileReference; name = "CDVLogger.m"; path = "cordova-plugin-console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		F1CB97D32F8A4AD289395BCB /* CDVLogger.h */ = {isa = PBXFileReference; name = "CDVLogger.h"; path = "cordova-plugin-console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		3129D561CF97407C8256E90F /* CDVDevice.m */ = {isa = PBXFileReference; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		BE58915652A8486588080566 /* CDVDevice.h */ = {isa = PBXFileReference; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B265129481DC48208095FDA3 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; name = "CDVInAppBrowser.m"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		CC81E107A64F42E3B0572BDE /* CDVInAppBrowser.h */ = {isa = PBXFileReference; name = "CDVInAppBrowser.h"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		D0F06A9E20114E5D9FA58AC5 /* CDVSplashScreen.m */ = {isa = PBXFileReference; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		E12A95C664A84DFABEFDFD3F /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		6A4DA1050D4646E38FA662F9 /* CDVSplashScreen.h */ = {isa = PBXFileReference; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		4A87DFD01FF74EEBB9C7C107 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		7F714444CCEF444A82549091 /* CDVStatusBar.m */ = {isa = PBXFileReference; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		996E56B260CE46CFBB5540B6 /* CDVStatusBar.h */ = {isa = PBXFileReference; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		3197CF2FFF774A92A93B8F98 /* IonicKeyboard.m */ = {isa = PBXFileReference; name = "IonicKeyboard.m"; path = "ionic-plugin-keyboard/IonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		476FB0361F114D839DEB7D20 /* IonicKeyboard.h */ = {isa = PBXFileReference; name = "IonicKeyboard.h"; path = "ionic-plugin-keyboard/IonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F8B5C74BB2DE468187C29CF8 /* CardIOCordovaPlugin.m */ = {isa = PBXFileReference; name = "CardIOCordovaPlugin.m"; path = "card.io.cordova.mobilesdk/CardIOCordovaPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A0D7C55C8D354CD898F4E153 /* libCardIO.a */ = {isa = PBXFileReference; name = "libCardIO.a"; path = "pay/Plugins/card.io.cordova.mobilesdk/libCardIO.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		AA598D19E282451299F3838C /* libopencv_core.a */ = {isa = PBXFileReference; name = "libopencv_core.a"; path = "pay/Plugins/card.io.cordova.mobilesdk/libopencv_core.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		18BE9EA2AAA74CC296CB07FC /* libopencv_imgproc.a */ = {isa = PBXFileReference; name = "libopencv_imgproc.a"; path = "pay/Plugins/card.io.cordova.mobilesdk/libopencv_imgproc.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		290FC741641F4838886BD88B /* CardIOCordovaPlugin.h */ = {isa = PBXFileReference; name = "CardIOCordovaPlugin.h"; path = "card.io.cordova.mobilesdk/CardIOCordovaPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		5EC58ECE6C0A4256B2A924A8 /* CardIO.h */ = {isa = PBXFileReference; name = "CardIO.h"; path = "card.io.cordova.mobilesdk/CardIO.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		92A9F1AD4CA843279CD7C1B0 /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; name = "CardIOCreditCardInfo.h"; path = "card.io.cordova.mobilesdk/CardIOCreditCardInfo.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		EB5196A74C914CFCB41996A4 /* CardIODetectionMode.h */ = {isa = PBXFileReference; name = "CardIODetectionMode.h"; path = "card.io.cordova.mobilesdk/CardIODetectionMode.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		71E3B3C5C9B148E5B46840FC /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; name = "CardIOPaymentViewController.h"; path = "card.io.cordova.mobilesdk/CardIOPaymentViewController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		AAAC1BC4E2534118BB68740D /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; name = "CardIOPaymentViewControllerDelegate.h"; path = "card.io.cordova.mobilesdk/CardIOPaymentViewControllerDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		D9DDAD5AC0C747F48E72BE75 /* CardIOUtilities.h */ = {isa = PBXFileReference; name = "CardIOUtilities.h"; path = "card.io.cordova.mobilesdk/CardIOUtilities.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		2597F5503624455087537A52 /* CardIOView.h */ = {isa = PBXFileReference; name = "CardIOView.h"; path = "card.io.cordova.mobilesdk/CardIOView.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		D262395E198E433F923D111A /* CardIOViewDelegate.h */ = {isa = PBXFileReference; name = "CardIOViewDelegate.h"; path = "card.io.cordova.mobilesdk/CardIOViewDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				40DC164A8A094819BDB65780 /* Accelerate.framework in Frameworks */,
+				62616F707FE64C588791A0D1 /* AudioToolbox.framework in Frameworks */,
+				0879438251CD461F9354FBD7 /* AVFoundation.framework in Frameworks */,
+				3776B8B2C62E454288E83C70 /* CoreMedia.framework in Frameworks */,
+				05A0094BECF74E00A252D7AD /* CoreVideo.framework in Frameworks */,
+				A56E7B56EE90466EA7B97685 /* Foundation.framework in Frameworks */,
+				86991F454C8F43DFA4D40285 /* OpenGLES.framework in Frameworks */,
+				520BAB32918C4542931F6AE9 /* QuartzCore.framework in Frameworks */,
+				5DFE0EDA2A1D42418AF88B77 /* Security.framework in Frameworks */,
+				F73B6EB2CD8746FC93F3C73E /* UIKit.framework in Frameworks */,
+				E38F52D7D143486F9ADB7E84 /* libc++.dylib in Frameworks */,
+				52F2D756A05A43399930960D /* CFNetwork.framework in Frameworks */,
+				F5B754F6A59741329A325A24 /* CoreLocation.framework in Frameworks */,
+				171DA35C9E054314B71975C6 /* MessageUI.framework in Frameworks */,
+				7C08EC8C9E65473F8581E517 /* SafariServices.framework in Frameworks */,
+				897E9C72FFE04962BE56CABD /* SystemConfiguration.framework in Frameworks */,
+				447F9FCE667843C1A6F866CC /* libPayPalMobile.a in Frameworks */,
+				CAAF060FAC214E98A56F1CB1 /* libPayPalMobile.a in Frameworks */,
+				108407B48C60477885D41286 /* libCardIO.a in Frameworks */,
+				8A537A32D39B4860AF5CE07C /* libopencv_core.a in Frameworks */,
+				9CCF0C306C194673A6E56E10 /* libopencv_imgproc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			name = Classes;
+			path = "pay/Classes";
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* pay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EB87FDF41871DAF40020F90C /* config.xml */,
+				EB87FDF31871DA8E0020F90C /* www */,
+				EB87FDF11871DA420020F90C /* Staging */,
+				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* pay-Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
+			);
+			name = "Other Sources";
+			path = "pay";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0207DA571B56EA530066E2B4 /* Images.xcassets */,
+				3047A50E1AB8057F00498E2A /* config */,
+				8D1107310486CEB800E47090 /* pay-Info.plist */,
+			);
+			name = Resources;
+			path = "pay/Resources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4E7E9A53B7043BE9595C0BB /* Accelerate.framework */,
+				3938A9F5086C48E8860AAF32 /* AudioToolbox.framework */,
+				34073F03F2694E6CB268963C /* AVFoundation.framework */,
+				8203A3EB86C94AFA9A8F402D /* CoreMedia.framework */,
+				5B9A5CC948484A89BE4C60AD /* CoreVideo.framework */,
+				C0F8FB857D244EF6AF291E09 /* Foundation.framework */,
+				EE3E81F7C74E41B4BDB1923B /* OpenGLES.framework */,
+				321B52ECC2E2477D929E309A /* QuartzCore.framework */,
+				CCF5F0939CFC49B39A3BB3C4 /* Security.framework */,
+				6A0E8D0FBD3B429D89135550 /* UIKit.framework */,
+				DD5E0799CAB54B28A4682E02 /* libc++.dylib */,
+				F5AF788C86F74362BCC205F1 /* CFNetwork.framework */,
+				6D0784A46605453580A37D3C /* CoreLocation.framework */,
+				23EBE52757C4447899226E8F /* MessageUI.framework */,
+				B28CF11AC0A84C1FB60CFF18 /* SafariServices.framework */,
+				B90570D6381643F49530B17C /* SystemConfiguration.framework */,
+				978588FB25D24498BEE3EA0F /* libPayPalMobile.a */,
+				9B2F4701F9AC428D8DC44816 /* libPayPalMobile.a */,
+				A0D7C55C8D354CD898F4E153 /* libCardIO.a */,
+				AA598D19E282451299F3838C /* libopencv_core.a */,
+				18BE9EA2AAA74CC296CB07FC /* libopencv_imgproc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3047A50E1AB8057F00498E2A /* config */ = {
+			isa = PBXGroup;
+			children = (
+				3047A50F1AB8059700498E2A /* build-debug.xcconfig */,
+				3047A5101AB8059700498E2A /* build-release.xcconfig */,
+				3047A5111AB8059700498E2A /* build.xcconfig */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				70A22D948F924C00A1165661 /* PayPalMobileCordovaPlugin.m */,
+				52C54B0BA0E64215A5A57E19 /* PayPalMobileCordovaPlugin.h */,
+				06B5CFBCA27440AB8C728328 /* PayPalConfiguration.h */,
+				D2DC0E225FEB463483F37551 /* PayPalFuturePaymentViewController.h */,
+				03A6A318E07644B6B075B365 /* PayPalMobile.h */,
+				94C503717FF14636AD1FD331 /* PayPalOAuthScopes.h */,
+				A34F315294024E85AAB26D5A /* PayPalPayment.h */,
+				62EAA21D8D3A44CEAC655CBB /* PayPalPaymentViewController.h */,
+				FB6FFE7C4FE744329F38D299 /* PayPalProfileSharingViewController.h */,
+				F87988ED52EB4348AF3A77CA /* CDVLogger.m */,
+				F1CB97D32F8A4AD289395BCB /* CDVLogger.h */,
+				3129D561CF97407C8256E90F /* CDVDevice.m */,
+				BE58915652A8486588080566 /* CDVDevice.h */,
+				B265129481DC48208095FDA3 /* CDVInAppBrowser.m */,
+				CC81E107A64F42E3B0572BDE /* CDVInAppBrowser.h */,
+				D0F06A9E20114E5D9FA58AC5 /* CDVSplashScreen.m */,
+				E12A95C664A84DFABEFDFD3F /* CDVViewController+SplashScreen.m */,
+				6A4DA1050D4646E38FA662F9 /* CDVSplashScreen.h */,
+				4A87DFD01FF74EEBB9C7C107 /* CDVViewController+SplashScreen.h */,
+				7F714444CCEF444A82549091 /* CDVStatusBar.m */,
+				996E56B260CE46CFBB5540B6 /* CDVStatusBar.h */,
+				3197CF2FFF774A92A93B8F98 /* IonicKeyboard.m */,
+				476FB0361F114D839DEB7D20 /* IonicKeyboard.h */,
+				F8B5C74BB2DE468187C29CF8 /* CardIOCordovaPlugin.m */,
+				290FC741641F4838886BD88B /* CardIOCordovaPlugin.h */,
+				5EC58ECE6C0A4256B2A924A8 /* CardIO.h */,
+				92A9F1AD4CA843279CD7C1B0 /* CardIOCreditCardInfo.h */,
+				EB5196A74C914CFCB41996A4 /* CardIODetectionMode.h */,
+				71E3B3C5C9B148E5B46840FC /* CardIOPaymentViewController.h */,
+				AAAC1BC4E2534118BB68740D /* CardIOPaymentViewControllerDelegate.h */,
+				D9DDAD5AC0C747F48E72BE75 /* CardIOUtilities.h */,
+				2597F5503624455087537A52 /* CardIOView.h */,
+				D262395E198E433F923D111A /* CardIOViewDelegate.h */,
+			);
+			name = Plugins;
+			path = "pay/Plugins";
+			sourceTree = SOURCE_ROOT;
+		};
+		EB87FDF11871DA420020F90C /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				F840E1F0165FE0F500CFE078 /* config.xml */,
+				301BF56E109A69640062928A /* www */,
+			);
+			name = Staging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* pay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "pay" */;
+			buildPhases = (
+				304B58A110DAC018002A0835 /* Copy www directory */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+			);
+			name = "pay";
+			productName = "pay";
+			productReference = 1D6058910D05DD3D006BFB54 /* pay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 510;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__NON-CLI__" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* pay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				E335D2BFEC094CA0A3DF0396 /* PayPalMobileCordovaPlugin.m in Sources */,
+				59A2C8339F5540E38EB2D80B /* CDVLogger.m in Sources */,
+				02DAB60F9A2648DABE039C09 /* CDVDevice.m in Sources */,
+				BC8A3AE370104A43B4557057 /* CDVInAppBrowser.m in Sources */,
+				46CD580254FB43739556B3DF /* CDVSplashScreen.m in Sources */,
+				87FA161CF1BF4EF6A213E31C /* CDVViewController+SplashScreen.m in Sources */,
+				5789607D9D3A42918DE15790 /* CDVStatusBar.m in Sources */,
+				40C84C83D52044BE8EE7DB47 /* IonicKeyboard.m in Sources */,
+				CB0525BC1299486D99CB0925 /* CardIOCordovaPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pay/pay-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "pay/pay-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_NAME = "pay";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/pay/Plugins/com.paypal.cordova.mobilesdk\"",
+					"\"$(SRCROOT)/pay/Plugins/card.io.cordova.mobilesdk\"",
+					"\"$(SRCROOT)/pay/Plugins/card.io.cordova.mobilesdk\"",
+					"\"$(SRCROOT)/pay/Plugins/card.io.cordova.mobilesdk\"",
+				);
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pay/pay-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "pay/pay-Info.plist";
+				PRODUCT_NAME = "pay";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/pay/Plugins/com.paypal.cordova.mobilesdk\"",
+					"\"$(SRCROOT)/pay/Plugins/card.io.cordova.mobilesdk\"",
+					"\"$(SRCROOT)/pay/Plugins/card.io.cordova.mobilesdk\"",
+					"\"$(SRCROOT)/pay/Plugins/card.io.cordova.mobilesdk\"",
+				);
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "pay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__NON-CLI__" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
