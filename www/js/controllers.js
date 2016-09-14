@@ -23,9 +23,11 @@ succes{
 
 
   $scope.user= {
-      min:1,
-      max:300,
-      value:20
+      min:20,
+      max:1000,
+      value:160,
+      dollar:0.069
+
   }
   $scope.paidRecord = [];
 
@@ -34,9 +36,8 @@ succes{
     // alert("D: "+ d[2]+" "+d[1]+" "+d[3] +"\nTime: "+d[4]);
     PaypalService.initPaymentUI().then(function () {
       PaypalService.makePayment($scope.user.value, 'Total Amount').then(function (response) {
-          $scope.paidRecord = $scope.paidRecord.concat({date: d[2]+" "+d[1]+" "+d[3], time:d[4], value: $scope.user.value});
+          $scope.paidRecord = $scope.paidRecord.concat({date: d[2]+" "+d[1]+" "+d[3], time:d[4], value: $scope.user.value * $scope.user.dollar});
           showAlert();
-
 
       }, function (error) {
          

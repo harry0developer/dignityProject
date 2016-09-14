@@ -1,6 +1,7 @@
 <ion-view view-title="Record">
 	<ion-content>
-		<ion-list >
+		<ion-list class="padding">
+			<p>Your donation records and graphs will go in here</p>
 			<ion-item ng-repeat="data in paidRecord">
 				<div class="item item-divider">
 					Donation Information
@@ -15,6 +16,8 @@
 				<li class="item">
 					Time: {{data.time}}
 				</li>
+
+
 			</ion-item>
 		</ion-list>
 	</ion-content>

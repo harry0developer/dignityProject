@@ -3,6 +3,10 @@
 a{
 	text-decoration: none;
 }
+
+h3{
+	text-align: left !important;
+}
 .ProfileDetails .item-thumbnail, .item .name, .ProfileDetails, .col-90{
 	background-color: #8c0669;
 
@@ -40,24 +44,24 @@ a{
 
 .button.button-stable {
     border-color: transparent;
-    background-color: #6d0652;
+    background-color: #8c0669;
     color: #fff;
 }
 
 .button.button-stable:hover, .button.button-stable:active {
     border-color: transparent;
-    background-color: #6d0652;
+    background-color: #8c0669;
     color: #fff;
 }
 .item-divider {
     background-color: #cca6c2;
 }
 .popup-buttons .button, .popup-buttons .button:hover, .popup-buttons .button:active{
-	background-color: #6d0652;
+	background-color: #8c0669;
 	color: #fff;
 }
 .toggle.toggle-stable input:checked + .track {
-    border-color: #6d0652;
+    border-color: #8c0669;
     background-color: #8c0669;
 }
 .stable{
@@ -66,9 +70,9 @@ a{
 .love h1{
 	color:#8c0669;
 }
-.love{
+.logo{
 	padding: 20px;
 	font-size: 15em;
 	color: #8c0669;
-	margin: 120px 0 120px 0;
+	margin: 10% 0 0 0;
 }

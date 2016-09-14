@@ -4,6 +4,8 @@
 		<ion-toggle ng-model="anonymous.checked">
 			I would like to be contacted
 		</ion-toggle> -->
+	<div class="card">
+
 
 		<li class="item item-toggle">
 			I would like to be contacted
@@ -27,10 +29,12 @@
 			</label>
 		</div>
 
-		<div class="card">
+
+		<div class="card padding">
+			<h4>Make a donation</h4>
 			<div class="range stable" >
 				<i class="icon ion-ios-heart-outline"></i>
-				<input type="range" min="1" max="300" value="{{user.min}}" step="1" ng-model="user.value">
+				<input type="range" min="20" max="1000" value="{{user.min}}" step="1" ng-model="user.value">
 				<i class="icon ion-ios-heart"></i>
 			</div>
 		</div>
@@ -38,13 +42,16 @@
 
 		<div class="list padding card ">
 		   
-			<h3>Donate: <b>{{user.value}}</b> $</h3>
+			
+			<h4>Donate R:<b>{{user.value}}.00</b> </h4>
+			<p>Donate $:<b>{{user.dollar * user.value | number:2}}</b> </h3>
 
 			<button  class="button button-block button-stable" ng-click="donate()">Donate</button>
 
 		</div>
 		
 		
+	</div>
 		
   </ion-content>
 </ion-view>

@@ -111,27 +111,27 @@ angular.module('starter.payPalService', [])
 		return service;
 }])
 
-app.factory('userService', ['$rootScope', function ($rootScope) {
+// app.factory('userService', ['$rootScope', function ($rootScope) {
 
-    var service = {
+//     var service = {
 
-        model: {
-            name: '',
-            email: ''
-        },
+//         model: {
+//             name: '',
+//             email: ''
+//         },
 
-        SaveState: function () {
-            sessionStorage.userService = angular.toJson(service.model);
-        },
+//         SaveState: function () {
+//             sessionStorage.userService = angular.toJson(service.model);
+//         },
 
-        RestoreState: function () {
-            service.model = angular.fromJson(sessionStorage.userService);
-        }
-    }
+//         RestoreState: function () {
+//             service.model = angular.fromJson(sessionStorage.userService);
+//         }
+//     }
 
-    $rootScope.$on("savestate", service.SaveState);
-    $rootScope.$on("restorestate", service.RestoreState);
+//     $rootScope.$on("savestate", service.SaveState);
+//     $rootScope.$on("restorestate", service.RestoreState);
 
-    return service;
-}]);
+//     return service;
+// }]);
 	
